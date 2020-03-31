@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.10)
 
 project(algorithms)
 
-set(CMAKE_CXX_FLAGS "-O3")
+set(CMAKE_CXX_FLAGS "-O3 -std=c++17")
+set(CMAKE_BUILD_TYPE RelWithDebInfo)
 include_directories(.)
 
 add_executable(generate
@@ -44,3 +45,12 @@ add_executable(list_sort_test
 add_executable(vector_sort_test
     vector/vector.cpp
     sort/vector_sort.cpp)
+
+add_executable(hash_map_test
+    hash/hash_map.cpp)
+
+add_executable(hash_map_list_test
+    hash/hash_map_list.cpp)
+
+add_executable(hash_map_flat_test
+    hash/hash_map_flat.cpp)
