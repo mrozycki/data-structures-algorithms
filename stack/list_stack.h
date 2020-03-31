@@ -1,14 +1,16 @@
 #pragma once
 
-#include "array.h"
+#include "list/linked_list.h"
 
 class stack {
 public:
+    stack() : elements(nullptr) {}
+
     void push(int value);
     int pop();
     int top() const;
     bool is_empty() const;
 
 private:
-    vector elements;
+    list* elements;
 };

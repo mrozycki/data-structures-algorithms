@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "linked_list.h"
+#include "list/linked_list.h"
 
 list* sort(std::vector<int> const& numbers) {
     list* sorted_list = nullptr;

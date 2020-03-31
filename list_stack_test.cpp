@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "array_stack.h"
+#include "stack/list_stack.h"
 
 int main() {
     stack s;

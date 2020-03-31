@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "linked_list.h"
+#include "list/linked_list.h"
 
 int main() {
     list* l = nullptr;

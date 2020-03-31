@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-#include "array_stack.h"
+#include "stack/vector_stack.h"
 
 class queue {
 public:

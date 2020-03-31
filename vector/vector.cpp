@@ -1,4 +1,4 @@
-#include "array.h"
+#include "vector.h"
 
 vector::vector()
     : capacity_(8)

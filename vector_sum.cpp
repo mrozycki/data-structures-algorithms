@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "array.h"
+#include "vector/vector.h"
 
 int main() {
     vector v;

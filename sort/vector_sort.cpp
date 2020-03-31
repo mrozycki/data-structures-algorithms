@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "array.h"
+#include "vector/vector.h"
 
 vector sort(std::vector<int> const& numbers) {
     vector sorted_numbers;
