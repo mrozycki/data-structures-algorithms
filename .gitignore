@@ -12,3 +12,4 @@ rules.ninja
 # build
 test_data/**
 bin/**
+build/**
