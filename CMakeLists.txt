@@ -66,3 +66,19 @@ set_property(TARGET hash_map_list_test PROPERTY CXX_STANDARD 17)
 add_executable(hash_map_flat_test
     hash/hash_map_flat.cpp)
 set_property(TARGET hash_map_flat_test PROPERTY CXX_STANDARD 17)
+
+add_executable(priority_queue_intro
+    priority_queue/intro.cpp)
+set_property(TARGET priority_queue_intro PROPERTY CXX_STANDARD 17)
+
+add_executable(priority_queue_naive
+    priority_queue/naive.cpp)
+set_property(TARGET priority_queue_naive PROPERTY CXX_STANDARD 17)
+
+add_executable(priority_queue_heap
+    priority_queue/heap.cpp)
+set_property(TARGET priority_queue_heap PROPERTY CXX_STANDARD 17)
+
+add_executable(priority_queue_vector
+    priority_queue/cpp_vector.cpp)
+set_property(TARGET priority_queue_vector PROPERTY CXX_STANDARD 17)

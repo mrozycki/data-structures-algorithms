@@ -13,3 +13,6 @@ rules.ninja
 test_data/**
 bin/**
 build/**
+
+# VSCode
+.vscode
